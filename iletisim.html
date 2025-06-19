@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>İletişim</title>
+        <link rel="stylesheet" href="stil.css">
+    </head>
+        <body>
+            <div class="navbar">
+					<a href="index.html">Anasayfa</a>
+                    <a href="filmDiziSayfa.html">Film ve Diziler</a>
+                    <a href="ekibimiz.html">Ekibimiz</a>
+                    <a href="iletisim.html">İletişim</a>
+            </div>
+            
+            <div class="iletisim">
+                <p class="anlatim">
+                    Fikirlerinize büyük önem veriyoruz, lütfen bize ulaşın.
+                </p>
+                <form action="/submit" method="post">
+                    <label>* İsim:</label>
+                    <input type="text" id="isim" name="isim" required>
+                    <label>* E-Posta:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label>* Mesajınız:</label>
+					<textarea id="mesaj" name="mesaj" rows="6" cols="50" required></textarea>
+                    <input type="submit" value="Gönder">
+                </form>
+            </div>
+        </body>
+</html>
